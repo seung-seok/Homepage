@@ -1,0 +1,32 @@
+.nav{
+    margin: 12px 3px;
+    display: flex;
+    width: 100%;
+    align-content: center;
+    /* font-family: 'Neonderthaw', cursive; */
+    /* font-family: 'The Nautigal', cursive; */
+    /* font-family: 'Secular One', sans-serif; */
+    /* font-family: 'Kaushan Script', cursive; */
+    /* font-family: 'Poiret One', cursive; */
+    /* font-family: 'Noto Sans KR', sans-serif; */
+    font-family: nexon light;
+    font-size: 18px;
+}
+.nav_left{
+    list-style: none;
+    width: 30%;
+    text-align: center;
+}
+.nav_right{
+    list-style: none;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav_right .nav_right_items{
+    text-align: center;
+}
+.dd{
+    position: sticky;
+    top: 20px;
+}
